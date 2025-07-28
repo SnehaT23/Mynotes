@@ -11,7 +11,7 @@ Learned about Linux commands such as:
 → chmod (Change file permissions), etc.
 Also learned how to run and execute them in Kali Linux using VirtualBox.
 I'm excited to learn more new things ahead!
-#Day4
+# Day4
 ->NAT (Network Address Translation):
        NAT is a networking process used to modify IP address information in packet headers while they are in transit across        a router or firewall.
        -->It allows multiple devices on a private network to share a single public IP address.
