@@ -11,3 +11,26 @@ Learned about Linux commands such as:
 → chmod (Change file permissions), etc.
 Also learned how to run and execute them in Kali Linux using VirtualBox.
 I'm excited to learn more new things ahead!
+#Day4
+->NAT (Network Address Translation):
+       NAT is a networking process used to modify IP address information in packet headers while they are in transit across        a router or firewall.
+       -->It allows multiple devices on a private network to share a single public IP address.
+       -->Adds a layer of security by hiding internal IP addresses from external networks.
+->Difference between TCP (Transmission Control Protocol) and UDP (User Datagram Protocol):
+       1.Connection – TCP is connection-oriented (uses a handshake), while UDP is connectionless and sends data without             establishing a session.
+       2. Reliability – TCP ensures reliable data transfer with acknowledgments and retransmissions; UDP does not guarantee        delivery.
+       3.Speed – TCP is slower due to error checking and connection management, while UDP is faster because it has minimal         overhead.
+       4.Security Risks – TCP can be targeted by attacks like SYN flooding and session hijacking, whereas UDP is vulnerable         to spoofing and amplification attacks.
+->IP Address (Internet Protocol Address):
+       Each device connected to a network is assigned an IP address to identify it.
+        Currently, we are receiving **Dynamic IP Addresses** (assigned automatically and may change).
+->IPv4 (Internet Protocol version 4):
+        Format: 32-bit (e.g., `192.168.1.1`)
+        Supports about 4.3 billion unique addresses.
+->MAC Address (Media Access Control Address)
+        Each device has a unique MAC address assigned to its network interface card.
+        This address rarely changes and is used for communication within a local network.
+->Port Forwarding:
+        Port forwarding is a networking technique that redirects traffic from an external IP and port to an internal device         on a private network.
+         It is useful for remote access to services.
+         However, it can be risky if misconfigured, as it may expose internal services to attackers.
