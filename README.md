@@ -71,7 +71,7 @@ sudo python3 Villain.py
 
 * `sessions` → View active sessions.
 * `shell <ID>` → Interact with a session.
-# Day5
+# Day6
 
 ##  Bug Bounty Basics
 
