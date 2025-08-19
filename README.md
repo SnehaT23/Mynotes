@@ -71,3 +71,61 @@ sudo python3 Villain.py
 
 * `sessions` → View active sessions.
 * `shell <ID>` → Interact with a session.
+# Day5
+
+## 🐞 Bug Bounty Basics
+
+Report bugs (especially security flaws) → Get paid and recognized.
+
+
+
+###  Common Vulnerabilities
+
+* **BAC**: Accessing things you shouldn't.
+* **IDOR**: Changing IDs in URLs to see others’ data.
+* **XSS**: Injecting scripts into web pages.
+* **CSRF**: Forcing users to take unwanted actions.
+* **SQLi**: Messing with database queries.
+* **SSRF**: Making the server talk to internal systems.
+* **Auth Bypass**: Getting in without real login.
+
+
+###  Top Bug Bounty Platforms
+
+* **HackerOne** – Big names like Uber, Twitter
+* **Bugcrowd** – Lots of public/private programs
+* **Intigriti** – EU-based, growing fast
+* **YesWeHack** – Strong in Europe
+* **Open Bug Bounty** – Free and open
+
+
+###  Must-Have Tools
+
+* **Burp Suite** – Web app testing
+* **Nmap** – Network scanner
+* **SQLmap** – Finds SQL injections
+* **Dirsearch/Gobuster** – Hidden folders
+* **Subfinder/Amass** – Find subdomains
+* **Postman/Insomnia** – API testing
+
+
+###  Zero-Click Attacks
+
+Hack happens with **no clicks** — just receiving a message or file.
+
+ Example:
+
+* **Pegasus Spyware** – Full phone hack via iMessage
+* **WhatsApp** – Spyware via missed call
+* **Apple Mail** – Attack by just receiving an email
+
+
+###  Famous Hacking Devices
+
+* **WiFi Pineapple** – Fakes Wi-Fi, steals data
+* **USB Rubber Ducky** – Looks like USB, types commands
+* **Flipper Zero** – All-in-one wireless hacking tool
+* **Bash Bunny** – USB that steals data + more
+* **HackRF One** – Radio signal hacking tool
+
+
