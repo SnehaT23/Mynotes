@@ -73,7 +73,7 @@ sudo python3 Villain.py
 * `shell <ID>` → Interact with a session.
 # Day5
 
-## 🐞 Bug Bounty Basics
+##  Bug Bounty Basics
 
 Report bugs (especially security flaws) → Get paid and recognized.
 
